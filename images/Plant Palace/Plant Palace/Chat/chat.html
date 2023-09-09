@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+
+</head>
+<body>
+    
+<!-- Chat Bot  -->
+
+
+  <div  id="chat-icon" onclick="toggleChatbot()"><i class="bi bi-messenger"></i></div>
+
+  <div id="chat-container" style="display: none;">
+    <div id="chat-header">LIVE CHAT</div>
+    <div id="chat-display">
+      <p class="wel" >Welcome to the Plant Palace How can i help?</p>
+      <!-- <p  id="question1-btn">What is this about</p>
+        <p id="question2-btn">where can i find all the Plants</p> -->
+    </div>
+    <div>
+    <input type="text" id="user-input" placeholder="Type your message..."><button id="send-btn">Send</button>
+    
+  </div>
+  </div>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
